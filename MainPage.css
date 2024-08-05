@@ -361,8 +361,6 @@ section {
 
 
 
-
-
 /* media queries*/
 
 @media (max-width:991px){
@@ -426,6 +424,17 @@ section {
         font-size: 3.5rem;
     }
 
+
+    .newsletter{
+        background-position: right;
+    }
+
+    .newsletter form{
+        margin-left: 0;
+        max-width: 100%;
+
+    }
+
 @media (max-width:450px){
     
     html{
@@ -433,4 +442,19 @@ section {
 }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

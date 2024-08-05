@@ -63,6 +63,10 @@ var swiperBooks = new Swiper(".books-slider", {
         delay: 9500,
         disableOnInteraction: false,
     },
+    navigation: {
+        nextEl: "swiper-button-next",
+        prevEl: "swiper-button-prev",
+    },
     breakpoints: {
         0: {
             slidesPerView: 1,
@@ -104,7 +108,49 @@ var swiperFeatured = new Swiper(".featured-slider", {
     },
 });
 
+var swiperFeatured = new Swiper(".reviews-slider", {
+    grapCursor:true,
+    spaceBetween: 10,
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+        delay: 9500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+    },
+}); 
 
+var swiperFeatured = new Swiper(".blogs-slider", {
+    grapCursor:true,
+    spaceBetween: 10,
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+        delay: 9500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+    },
+}); 
 
 document.addEventListener('DOMContentLoaded', function() {
 
